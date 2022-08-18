@@ -1,0 +1,11 @@
+
+spring:
+  rabbitmq:
+    host: 47.108.154.173
+    port: 5672
+    username: manager
+    password: haha##8875ABC
+    virtual-host: /manager
+    listener:
+      simple:
+        acknowledge-mode: manual
